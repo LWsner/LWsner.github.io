@@ -11,4 +11,4 @@ image = '/images/research/GA_Lüken2021.png'
 image_alt = 'Artifically Spun Fibers'
 +++
 
-...
+<!-- ... -->

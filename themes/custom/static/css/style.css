@@ -664,7 +664,7 @@ a:hover {
     border-radius: 0.5rem;
     padding: 1.5rem 2rem;
     box-shadow: 0 2px 4px var(--shadow-color);
-    text-align: left;
+    text-align: justify;
     font-size: 1.05rem;
     line-height: 1.7;
 }
@@ -675,6 +675,15 @@ a:hover {
 
 .about-summary-box p:last-child {
     margin-bottom: 0;
+}
+
+.about-section-divider {
+    display: block;
+    max-width: 860px;
+    margin: 0 auto 2rem;
+    height: 1px;
+    background-color: var(--border-color);
+    border: none;
 }
 
 .about-qualifications {

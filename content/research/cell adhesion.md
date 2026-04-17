@@ -11,4 +11,4 @@ image = '/images/research/GA_Rauer2024.png'
 image_alt = 'Cell Adhesion and Harvesting Cycle'
 +++
 
-...
+<!-- ... -->

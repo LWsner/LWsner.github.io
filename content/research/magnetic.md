@@ -11,4 +11,4 @@ image = '/images/research/GA_Steinbeck2023.png'
 image_alt = 'Magnetic Anisometric Microgels'
 +++
 
-...
+<!-- ... -->

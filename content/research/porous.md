@@ -11,4 +11,4 @@ image = '/images/research/GA_Steinbeck2024-Porous.png'
 image_alt = 'Tailored Microgels in Porosity and Thermal Response'
 +++
 
-... 
+<!-- ... -->

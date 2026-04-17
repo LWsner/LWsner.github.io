@@ -11,4 +11,4 @@ image = '/images/research/GA_Linz2020.jpg'
 image_alt = 'Transwell Cell Barrier Analysis'
 +++
 
-...
+<!-- ... -->
