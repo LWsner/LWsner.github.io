@@ -1122,6 +1122,7 @@ a:hover {
 .hobby-content,
 .news-content {
     line-height: 1.8;
+    text-align: justify;
 }
 
 .content-body img,
