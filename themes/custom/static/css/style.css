@@ -312,7 +312,7 @@ a:hover {
 }
 
 .content-item h3 a {
-    color: var(--text-color);
+    color: var(--heading-color);
 }
 
 .item-summary {
@@ -404,7 +404,7 @@ a:hover {
 }
 
 .blog-title a {
-    color: var(--text-color);
+    color: var(--heading-color);
 }
 
 .blog-summary {
@@ -474,7 +474,7 @@ a:hover {
 }
 
 .research-title a {
-    color: var(--text-color);
+    color: var(--heading-color);
 }
 
 .research-authors {
@@ -983,7 +983,7 @@ a:hover {
 }
 
 .hobby-title a {
-    color: var(--text-color);
+    color: var(--heading-color);
 }
 
 .hobby-description {
@@ -1047,7 +1047,7 @@ a:hover {
 }
 
 .news-title a {
-    color: var(--text-color);
+    color: var(--heading-color);
 }
 
 .news-summary {
