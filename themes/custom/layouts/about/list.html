@@ -6,8 +6,50 @@
 
     {{ if .Content }}
     <div class="about-summary-box">
-        {{ .Content }}
+        <div class="about-summary-short"></div>
+        <div class="about-summary-more" hidden></div>
+        <div class="about-summary-toggle">
+            <button class="btn btn-primary" id="about-more-btn">More</button>
+        </div>
     </div>
+    <template id="about-summary-content">{{ .Content }}</template>
+    <script>
+    (function () {
+        var tpl = document.getElementById('about-summary-content');
+        var box = document.querySelector('.about-summary-box');
+        var shortEl = box.querySelector('.about-summary-short');
+        var moreEl = box.querySelector('.about-summary-more');
+        var btn = document.getElementById('about-more-btn');
+
+        var tmp = document.createElement('div');
+        tmp.innerHTML = tpl.innerHTML;
+
+        var hr = tmp.querySelector('hr.about-section-divider');
+        if (hr) {
+            var before = document.createDocumentFragment();
+            var after = document.createDocumentFragment();
+            var reachedHr = false;
+            Array.from(tmp.childNodes).forEach(function (node) {
+                if (node === hr) { reachedHr = true; after.appendChild(node.cloneNode(true)); return; }
+                if (!reachedHr) { before.appendChild(node.cloneNode(true)); }
+                else { after.appendChild(node.cloneNode(true)); }
+            });
+            shortEl.appendChild(before);
+            moreEl.appendChild(after);
+        } else {
+            shortEl.innerHTML = tmp.innerHTML;
+            btn.parentElement.style.display = 'none';
+        }
+
+        btn.addEventListener('click', function () {
+            var expanded = !moreEl.hidden;
+            moreEl.hidden = expanded;
+            btn.textContent = expanded ? 'More' : 'Hide';
+            btn.classList.toggle('btn-primary', expanded);
+            btn.classList.toggle('btn-secondary', !expanded);
+        });
+    })();
+    </script>
     {{ end }}
 
     <h2 class="about-section-heading">SKILLS</h2>

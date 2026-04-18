@@ -677,6 +677,19 @@ a:hover {
     margin-bottom: 0;
 }
 
+.about-summary-toggle {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.about-summary-more p:first-child {
+    margin-top: 0;
+}
+
+.about-summary-more hr.about-section-divider {
+    margin-top: 1.5rem;
+}
+
 .about-section-divider {
     display: block;
     max-width: 860px;
