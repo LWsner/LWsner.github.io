@@ -27,21 +27,6 @@
         </div>
 
         <footer class="blog-footer">
-            {{ if or .Prev .Next }}
-            <nav class="blog-nav">
-                {{ if .Prev }}
-                <a href="{{ .Prev.Permalink }}" class="nav-prev">
-                    ← {{ .Prev.Title }}
-                </a>
-                {{ end }}
-                {{ if .Next }}
-                <a href="{{ .Next.Permalink }}" class="nav-next">
-                    {{ .Next.Title }} →
-                </a>
-                {{ end }}
-            </nav>
-            {{ end }}
-
             <div class="back-to-list">
                 <a href="/blog/">← Back to all posts</a>
             </div>
