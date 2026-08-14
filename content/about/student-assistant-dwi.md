@@ -11,5 +11,6 @@ type_label = 'career'
 description = ''
 +++
 
-- Gained practical experience in interdisciplinary laboratory environments
-- Conducted microfluidic experiments and cell culture work
+- Performed microfluidic and cell-culture experiments within interdisciplinary research projects, following established protocols and documenting results carefully.
+- Supported shared laboratory activities and developed a strong foundation in careful experimental work and reliable laboratory practice.
+

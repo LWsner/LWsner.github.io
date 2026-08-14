@@ -13,6 +13,3 @@ description = 'in Chemical Process Engineering'
 
 Dissertation: [*Tailoring the Characteristics of Complex-Shaped Microgels*](https://publications.rwth-aachen.de/record/1009669?ln=en)
 
-- Developed microfluidic fabrication methods for novel hydrogels
-- Established structured workflows, documentation, and SOP standards
-- Published 6 peer-reviewed papers and presented them at conferences
