@@ -2,7 +2,7 @@
 title = 'Postdoctoral Researcher'
 date = '2025-06-01'
 draft = false
-position = 'Postdoc (international)'
+position = 'Postdoctoral Researcher'
 organization = 'UVA – University of Virginia, [Griffin Lab](https://www.thegriffinlab.com/) (Biomedical Engineering)'
 location = 'Charlottesville, VA, USA'
 start_date = '2025-03'
