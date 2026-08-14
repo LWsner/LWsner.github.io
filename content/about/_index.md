@@ -1,22 +1,6 @@
 +++
 title = "About"
 description = "Education and career milestones"
-
-[[qualifications]]
-label = "Certifications"
-value = "GMP Specialist, Six Sigma Green Belt"
-
-[[qualifications]]
-label = "Trainings"
-value = "Communication & Team Development, Leadership"
-
-[[qualifications]]
-label = "Engagement"
-value = "TANDEMdok mentoring programme, iGEM research competition"
-
-[[qualifications]]
-label = "Languages"
-value = "German (native), English (fluent, C1)"
 +++
 
 I am a scientist and project lead with a PhD in Chemical Process Engineering and a background in Biotechnology. My work combines scientific expertise with structured project management and team leadership in interdisciplinary environments.
