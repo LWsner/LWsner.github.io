@@ -893,6 +893,10 @@ a:hover {
     margin-top: 0.75rem;
 }
 
+.about-item.career .about-content li {
+    text-align: justify;
+}
+
 /* About Single Page */
 .about-single {
     max-width: 800px;
