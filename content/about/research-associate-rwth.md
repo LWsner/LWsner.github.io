@@ -1,12 +1,12 @@
 +++
 title = 'Research Associate & Project Lead'
-date = '2025-06-01'
+date = '2025-03-01'
 draft = false
 position = 'Research Associate & Project Lead'
 organization = 'RWTH Aachen University, [Chair of Chemical Process Engineering](https://www.avt.rwth-aachen.de/cms/avt/forschung/~bjorgs/udchemische-verfahrenstechnik/?lidx=1)'
 location = 'Aachen, Germany'
 start_date = '2020-06'
-end_date = '2025-06'
+end_date = '2025-02'
 type_label = 'career'
 description = ''
 +++
